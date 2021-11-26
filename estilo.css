@@ -1,0 +1,74 @@
+* {
+	box-sizing: border-box;
+}
+
+header, footer {
+	background-color: pink;
+	border-style: solid;
+	border-radius: 15px;
+	padding: 5px;
+	text-align: center;
+}
+
+.Separador1{
+	height: 10px;
+	clear: both;
+}
+
+.Separador2{
+	width: 2%;
+	height: 1px;
+	float: left;
+}
+
+.Centro{width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;}
+
+img { 
+	transition: all 0.5s linear;
+	border-style: solid;
+	border-color: white;
+	border-radius: 30px;
+ }
+
+ .main img {
+ 	width: 48%;
+ 	float: left;
+ 	border-radius: 30px;
+ }
+
+ .main {
+ 	height: 1200px;
+ }
+
+ body {
+ 	background-image: url(img/foto7.jpg);
+ 	background-position: center;
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	background-attachment: fixed;
+
+ }
+
+
+ img:hover {
+ 	/* transform: scale(0.9); /*efecto que cambia el tamaño de la imagen.*/
+ 	border-radius: 50px;
+ 	/* filter: blur(5px); efecto de desenfoque*/
+ 	/* filter: grayscale(80%); efecto de blanco y negro */
+ 	/* filter: sepia(80%); efecto sepia */
+ 	/* filter: saturate(180%); efecto de saturación */
+ 	/* -webkit-transform: rotate(360deg); gira la imagen */
+ 	/* -webkit-transform: rotateY(360deg); gira la imagen */
+ 	/* -webkit-transform: rotate(180deg); 
+ 	-webkit-transform: rotateY(180deg); 
+ 	transform: rotateY(180deg);
+ 	transform-style: preserve-3d;*/
+
+ 	transform: scale(0.4)
+ 	border-radius: 50%;
+ 	/* transform: rotate(360deg);*/
+ 	filter: grayscale(80%);
+ }
